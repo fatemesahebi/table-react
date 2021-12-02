@@ -17,3 +17,45 @@ table,td,th{
     border-collapse: collapse;
     padding: 10px 20px;
 }
+tr{
+    height:70px;
+}
+td:last-child{
+    width: 300px;
+}
+td p{
+    display: inline-block;
+}
+th{
+    background-color: #569156;
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+tr:hover{
+    background-color: #eae9e9;
+    color: #569156;
+}
+.options{
+    width: 20px;
+    float: right;
+    padding: 2px;
+    display: none;
+}
+tr:hover .options{
+    display: inline-block;
+    margin-top: 10px;
+}
+button{
+    margin: 50px auto;
+    width: 30vw;
+    height: 100px;
+    border: #444242 1px dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    column-gap: 20px;
+}

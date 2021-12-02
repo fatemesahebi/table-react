@@ -15,6 +15,7 @@ function edit(){
             name[i].textContent=prompt("Enter your name")
             job[i].textContent=prompt("Enter your job")
             email[i].textContent=prompt("Enter your email")
+
         }
     }
 
