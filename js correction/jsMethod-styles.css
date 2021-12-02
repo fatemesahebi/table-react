@@ -1,0 +1,19 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #444242;
+
+}
+table{
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+    width: 50vw;
+
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
